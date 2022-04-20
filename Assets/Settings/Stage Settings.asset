@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00139fb0593f78442a0dab9cabfd1357, type: 3}
+  m_Name: Stage Settings
+  m_EditorClassIdentifier: 
+  Stages:
+  - StageName: Clean Stage
+    NeededProgress: 0.9
+    CompleteProgress: 0.95
+  - StageName: Paint Stage
+    NeededProgress: 0.95
+    CompleteProgress: 1
+  - StageName: Dry Stage
+    NeededProgress: 1
+    CompleteProgress: 1
+  - StageName: Select
+    NeededProgress: 1
+    CompleteProgress: 1
+  - StageName: Paint
+    NeededProgress: 0.9
+    CompleteProgress: 1
+  - StageName: Sticker Stage
+    NeededProgress: 1
+    CompleteProgress: 1
+  CleanMaterial: {fileID: 2100000, guid: 0fa35c301095c984ab8a935598df54e8, type: 2}

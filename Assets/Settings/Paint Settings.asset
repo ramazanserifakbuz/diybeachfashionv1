@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 298e848586725f2408d4cd1040da21de, type: 3}
+  m_Name: Paint Settings
+  m_EditorClassIdentifier: 
+  BrushColors:
+  - Color: {r: 0.20392157, g: 0.16470589, b: 0.19215687, a: 1}
+    ColorSprite: {fileID: 21300000, guid: 9e315348890350c42b882228170c8d03, type: 3}
+  - Color: {r: 0.6862745, g: 0.09803922, b: 0.12156863, a: 1}
+    ColorSprite: {fileID: 21300000, guid: df100f542aea21641900ad2b677c0ea8, type: 3}
+  - Color: {r: 0.96862745, g: 0.13333334, b: 0.16470589, a: 1}
+    ColorSprite: {fileID: 21300000, guid: 74185b773bf763449b1abb4dc894295d, type: 3}
+  - Color: {r: 0.9411765, g: 0.37254903, b: 0.5803922, a: 1}
+    ColorSprite: {fileID: 21300000, guid: 2c1e9595fb7240f48b0856ebf15b296e, type: 3}
+  - Color: {r: 0.8980392, g: 0.6392157, b: 0.7058824, a: 1}
+    ColorSprite: {fileID: 21300000, guid: e39c186ff28cbc2488f3720cdfec85cd, type: 3}
+  - Color: {r: 0.83137256, g: 0.22352941, b: 0.7058824, a: 1}
+    ColorSprite: {fileID: 21300000, guid: 85999b40653ed8a4e81c9b5fb89b4620, type: 3}
+  - Color: {r: 0.5372549, g: 0.27058825, b: 0.7254902, a: 1}
+    ColorSprite: {fileID: 21300000, guid: 856776624b09402458ee4059c55af672, type: 3}
+  - Color: {r: 0.30588236, g: 0.3019608, b: 0.9647059, a: 1}
+    ColorSprite: {fileID: 21300000, guid: d75a3b9fc76d5e347905c7a1f3f282df, type: 3}
+  - Color: {r: 0.30588236, g: 0.5372549, b: 1, a: 1}
+    ColorSprite: {fileID: 21300000, guid: f33ba83336f79204588601e7f251d0a5, type: 3}
+  - Color: {r: 0.3137255, g: 0.8745098, b: 1, a: 1}
+    ColorSprite: {fileID: 21300000, guid: a4ebc704501704f41b2fefeaf6a4082a, type: 3}
+  - Color: {r: 0.42352942, g: 1, b: 0.8117647, a: 1}
+    ColorSprite: {fileID: 21300000, guid: 64463d56a180fae45881e2fde70071aa, type: 3}
+  - Color: {r: 0.36862746, g: 0.8352941, b: 0.3137255, a: 1}
+    ColorSprite: {fileID: 21300000, guid: c22a1fe2c38be4940aa041f76a8d91c8, type: 3}
+  - Color: {r: 0.7647059, g: 0.8862745, b: 0.40392157, a: 1}
+    ColorSprite: {fileID: 21300000, guid: 066c0aa80884e5d4288b4ae334579b49, type: 3}
+  - Color: {r: 1, g: 0.88235295, b: 0.35686275, a: 1}
+    ColorSprite: {fileID: 21300000, guid: 143269740247b4343b29f45b9dd69527, type: 3}
+  - Color: {r: 0.87058824, g: 0.6745098, b: 0.3882353, a: 1}
+    ColorSprite: {fileID: 21300000, guid: 10a35258a427aea4a8ea7b69a4933d76, type: 3}
+  - Color: {r: 0.99607843, g: 0.7254902, b: 0.29411766, a: 1}
+    ColorSprite: {fileID: 21300000, guid: d0b507ff24fb9b748b2407762a7fe93a, type: 3}
+  - Color: {r: 0.99215686, g: 0.5764706, b: 0.36078432, a: 1}
+    ColorSprite: {fileID: 21300000, guid: c9e50f87cae7e6040816ec991e8dcfd2, type: 3}
+  - Color: {r: 0.78039217, g: 0.44705883, b: 0.34901962, a: 1}
+    ColorSprite: {fileID: 21300000, guid: f9a89dbf8f4394547ae3e29e2c011318, type: 3}
+  - Color: {r: 0.34509805, g: 0.20392157, b: 0.16470589, a: 1}
+    ColorSprite: {fileID: 21300000, guid: ec0395ee660f5954c93956156ac7caa8, type: 3}
+  - Color: {r: 0.8980392, g: 0.88235295, b: 0.8901961, a: 1}
+    ColorSprite: {fileID: 21300000, guid: 7415914b62b98094d91786e9880b7dd4, type: 3}
+  Stickers:
+  - StrickerName: Straw
+    StickerSprite: {fileID: 21300000, guid: 7ce425775c7be554aaed4a2fad56e675, type: 3}
+    WithRewarded: 0
+    Scale: 2
+  - StrickerName: Rainbow
+    StickerSprite: {fileID: 21300000, guid: 2c107d6bd70ba824a8002f7d8fefb857, type: 3}
+    WithRewarded: 0
+    Scale: 2
+  - StrickerName: Flower
+    StickerSprite: {fileID: 21300000, guid: 6589537ce0891b547bc2c431c0e11705, type: 3}
+    WithRewarded: 0
+    Scale: 2
+  - StrickerName: Skull
+    StickerSprite: {fileID: 21300000, guid: b593d0d96e779614fb93dbf2bd791ccd, type: 3}
+    WithRewarded: 0
+    Scale: 2
+  - StrickerName: Cherry
+    StickerSprite: {fileID: 21300000, guid: eaf8948bef19a714ba0ea20b79a771ec, type: 3}
+    WithRewarded: 0
+    Scale: 2
+  - StrickerName: Avakado
+    StickerSprite: {fileID: 21300000, guid: 28347e63620c30f488a35c787747ec2c, type: 3}
+    WithRewarded: 0
+    Scale: 2
+  - StrickerName: Cat
+    StickerSprite: {fileID: 21300000, guid: c24cd16258f04b84692d758bf25e93c5, type: 3}
+    WithRewarded: 0
+    Scale: 3
+  - StrickerName: Diamond
+    StickerSprite: {fileID: 21300000, guid: 87a6d4efd3e13044e837cb4bb00344a9, type: 3}
+    WithRewarded: 0
+    Scale: 3
+  - StrickerName: Rainbow Hearth
+    StickerSprite: {fileID: 21300000, guid: ed4d4b32690f68e44baf016ce8d52560, type: 3}
+    WithRewarded: 0
+    Scale: 3
+  - StrickerName: LGBT
+    StickerSprite: {fileID: 21300000, guid: b9c5e98a90ef8ef4386ed187a558a0e6, type: 3}
+    WithRewarded: 0
+    Scale: 3
+  Decals:
+  - DecalName: Hearth
+    Alpha: {fileID: 2800000, guid: bae7dc55604a3bb4a81ac6478e4a0703, type: 3}
+    InvertedAlpha: {fileID: 2800000, guid: f8a8b62da1fe5974f9b4bb139d8d34ad, type: 3}
+    DecalMask: {fileID: 2800000, guid: 0129996afc60a6144a42fa62a90cad10, type: 3}
+    DecalSprite: {fileID: 21300000, guid: 9c03e1c8d68a2924e90e801ea389a005, type: 3}
+  - DecalName: Fun
+    Alpha: {fileID: 2800000, guid: 85be829ffe310b54b91a655fe6eb9898, type: 3}
+    InvertedAlpha: {fileID: 2800000, guid: 89565e4675cef1a49930d0f07515bc2a, type: 3}
+    DecalMask: {fileID: 2800000, guid: 29a47dc51989f114c85259c5430c843b, type: 3}
+    DecalSprite: {fileID: 21300000, guid: 0a761579c8656e549887c23f0162831c, type: 3}
+  - DecalName: Fun 2
+    Alpha: {fileID: 2800000, guid: 8dafc3e7d7de5ec4684f8735a234348f, type: 3}
+    InvertedAlpha: {fileID: 2800000, guid: c96df9cf2c8d66942930963d67995332, type: 3}
+    DecalMask: {fileID: 2800000, guid: feb5b9c31ce383b4c96169f588527f82, type: 3}
+    DecalSprite: {fileID: 21300000, guid: 354aea54f1e3d6a41ba1bd7e70b633f9, type: 3}
+  - DecalName: Star
+    Alpha: {fileID: 2800000, guid: 1ab0c6bdc56fbdb4dba488bb67028b62, type: 3}
+    InvertedAlpha: {fileID: 2800000, guid: b03b86348d2a60d4d85d1256da17d27a, type: 3}
+    DecalMask: {fileID: 2800000, guid: 0085b568fdd01944083bad196a95c847, type: 3}
+    DecalSprite: {fileID: 21300000, guid: 9fa6957cb1ae162429859cf207378b40, type: 3}
+  - DecalName: Triangle
+    Alpha: {fileID: 2800000, guid: a747602a834297e40b2aa9364d9118c8, type: 3}
+    InvertedAlpha: {fileID: 2800000, guid: d9d7f9465ef47824b80fa31ab1eaa024, type: 3}
+    DecalMask: {fileID: 2800000, guid: 03d46f78be9cc4b46b1ac8e73c8eb2f4, type: 3}
+    DecalSprite: {fileID: 21300000, guid: 327ea28c4bcd90c4ca9cca01d49548dd, type: 3}
+  - DecalName: ZigZag
+    Alpha: {fileID: 2800000, guid: 9df6530938b33a641a9e42f5a3dd1739, type: 3}
+    InvertedAlpha: {fileID: 2800000, guid: d07ba901e7d59084babf67d1c12fe170, type: 3}
+    DecalMask: {fileID: 2800000, guid: 996384830e60bbc4cbc631529ee7a625, type: 3}
+    DecalSprite: {fileID: 21300000, guid: 91021f01cf67f4e4c87630fb59b6cce4, type: 3}
+  - DecalName: Skulls
+    Alpha: {fileID: 2800000, guid: 2f28fefc8e091f64ca52bb879c26fd19, type: 3}
+    InvertedAlpha: {fileID: 2800000, guid: 1c185b56e40e5b54ea772bc8daa9feef, type: 3}
+    DecalMask: {fileID: 2800000, guid: f090b79e2cb2b7345aee21fd089c1b9e, type: 3}
+    DecalSprite: {fileID: 21300000, guid: d4db4bd087e081f4b8f4928b9965da67, type: 3}
+  - DecalName: Leopard
+    Alpha: {fileID: 2800000, guid: 8e02fe315ade8624f87ff87f12f040a8, type: 3}
+    InvertedAlpha: {fileID: 2800000, guid: 3176d65453fc90241a9109eb8f7b0293, type: 3}
+    DecalMask: {fileID: 2800000, guid: 051ba3979ea23ab42a676c6c188fdcb5, type: 3}
+    DecalSprite: {fileID: 21300000, guid: 1e63d2c3228f69d4da90561a12fb0fcd, type: 3}
+  - DecalName: Curvy Lines
+    Alpha: {fileID: 2800000, guid: 8e6ac5549f3309f4cb1c9b5e59ec502f, type: 3}
+    InvertedAlpha: {fileID: 2800000, guid: 9699940a2bcaf044e9c1937444e3b839, type: 3}
+    DecalMask: {fileID: 2800000, guid: 8d0f1bb76dfbbb74e88218786b939128, type: 3}
+    DecalSprite: {fileID: 21300000, guid: a161459912e68b64183f3debb6aabc44, type: 3}

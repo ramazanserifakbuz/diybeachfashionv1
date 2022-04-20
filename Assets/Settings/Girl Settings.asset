@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eab2b5b41f188c46976a340a1e8abf8, type: 3}
+  m_Name: Girl Settings
+  m_EditorClassIdentifier: 
+  BlackTexture: {fileID: 2800000, guid: 4db6099299f1de646a78650c6731e38e, type: 3}
+  WhiteTexture: {fileID: 2800000, guid: 8f152032b54126d40b67b49f8c2770de, type: 3}
+  GirlList:
+  - name: Lagertha
+    SkinColor: 1
+    HairColor: {r: 0.67058825, g: 0.5529412, b: 0.05490196, a: 1}
+    DressColor: {r: 0.5568628, g: 0.16470589, b: 0.59607846, a: 1}
+  - name: Nina
+    SkinColor: 0
+    HairColor: {r: 0.3207547, g: 0.2123449, b: 0.19215022, a: 1}
+    DressColor: {r: 0.09972411, g: 0.5906519, b: 0.7830189, a: 1}
+  - name: Sophie
+    SkinColor: 1
+    HairColor: {r: 0.5188679, g: 0.15908687, b: 0.2040595, a: 1}
+    DressColor: {r: 0.8433863, g: 0.9622642, b: 0.14978641, a: 1}
+  - name: Nikki
+    SkinColor: 0
+    HairColor: {r: 0.11320752, g: 0.106265545, b: 0.10710469, a: 1}
+    DressColor: {r: 0.8773585, g: 0, b: 0.031750377, a: 1}
